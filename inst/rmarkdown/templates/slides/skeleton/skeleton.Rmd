@@ -24,7 +24,7 @@ library(magrittr, include.only = "%>%")
 ```{r xaringan-logo, echo=FALSE}
 # Não edite este chunk :)
 xaringanExtra::use_logo(
-  image_url = "http://ser.sites2.uff.br/wp-content/uploads/sites/124/2020/01/sem-t-tulo-1.png", 
+  image_url = "img/logo.png", 
   link_url = "http://ser.uff.br/"
 )
 ```
@@ -89,7 +89,7 @@ mtcars %>% DT::datatable(fillContainer = TRUE,
 - Imagens:
 
 ```{r echo=FALSE, fig.align='center'}
-knitr::include_graphics("http://ser.sites2.uff.br/wp-content/uploads/sites/124/2020/01/sem-t-tulo-1.png")
+knitr::include_graphics("img/logo.png")
 ```
 ---
 
