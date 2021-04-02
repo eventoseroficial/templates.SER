@@ -1,7 +1,10 @@
 ---
+# Altere o nome da sua apresentação abaixo:
 title: "Título da apresentação"
-subtitle: "International Seminar on Statistics with R"  
+# Adicione o nome das pessoas autoras:
 author: "Autor(a) 1, Autor(a) 2, Autor(a) 3..."
+# Evite editar o trecho de código a seguir.
+subtitle: "International Seminar on Statistics with R"  
 date: 'Maio de 2021'
 output:
   xaringan::moon_reader:
@@ -12,7 +15,9 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       ratio: '16:9'
-knitr: pagedown::chrome_print
+# O código abaixo irá gerar a apresentação em HTML e PDF.
+# Caso não queira a versão em PDF, comente a linha a seguir:
+knit: pagedown::chrome_print
 ---
 
 ```{r setup, include=FALSE}
@@ -88,7 +93,7 @@ mtcars %>% DT::datatable(fillContainer = TRUE,
 
 - Imagens:
 
-```{r echo=FALSE, fig.align='center'}
+```{r echo=FALSE, fig.align='center', fig.alt="Escreva uma descrição sobre a image", fig.cap="Legenda da imagem"}
 knitr::include_graphics("img/logo.png")
 ```
 ---
