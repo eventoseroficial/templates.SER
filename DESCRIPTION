@@ -21,3 +21,5 @@ Imports:
     xaringanExtra (>= 0.3.0)
 Remotes: 
     gadenbuie/xaringanExtra
+URL: https://github.com/beatrizmilz/templates.SER
+BugReports: https://github.com/beatrizmilz/templates.SER/issues
