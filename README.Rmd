@@ -26,7 +26,7 @@ Você pode instalar através do GitHub utilizando o seguinte código:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("beatrizmilz/templates.SER")
+devtools::install_github("eventoseroficial/templates.SER")
 ```
 
 ## Templates disponíveis
