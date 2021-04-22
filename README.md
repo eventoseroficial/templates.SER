@@ -19,6 +19,15 @@ Você pode instalar através do GitHub utilizando o seguinte código:
 devtools::install_github("eventoseroficial/templates.SER")
 ```
 
+Após a instalação, você pode utilizar o seguinte código para incorporar
+esse template a lista dos modelos do RMarkdown:
+
+``` r
+rmarkdown::draft("minha apresentação.Rmd", template = "slides", package = "templates.SER")
+```
+
+![](https://raw.githubusercontent.com/eventoseroficial/templates.SER/master/img/imagem1.png)
+
 ## Templates disponíveis
 
 -   [slides](https://exemplo-slide-ser.netlify.app/skeleton.html) -
