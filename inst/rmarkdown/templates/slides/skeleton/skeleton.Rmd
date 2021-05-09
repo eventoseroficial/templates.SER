@@ -5,7 +5,7 @@ title: "Título da apresentação"
 author: "Autor(a) 1, Autor(a) 2, Autor(a) 3..."
 # Evite editar o trecho de código a seguir.
 subtitle: "International Seminar on Statistics with R"  
-date: 'Maio de 2021'
+date: 'Junho de 2021'
 output:
   xaringan::moon_reader:
     lib_dir: libs
