@@ -1,10 +1,11 @@
 ---
 # Altere o nome da sua apresentação abaixo:
 title: "Título da apresentação"
+subtitle: "Subtítulo se houver, se não houver pode comentar a linha com #"
 # Adicione o nome das pessoas autoras:
 author: "Autor(a) 1, Autor(a) 2, Autor(a) 3..."
 # Evite editar o trecho de código a seguir.
-subtitle: "International Seminar on Statistics with R"  
+institute: "International Seminar on Statistics with R"  
 date: 'Junho de 2021'
 output:
   xaringan::moon_reader:
