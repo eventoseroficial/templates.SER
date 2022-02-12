@@ -28,7 +28,4 @@ rmarkdown::draft("minha apresentação.Rmd", template = "slides", package = "tem
 
 ![](https://raw.githubusercontent.com/eventoseroficial/templates.SER/master/img/imagem1.png)
 
-## Templates disponíveis
-
--   [slides](https://exemplo-slide-ser.netlify.app/skeleton.html) -
-    Apresentação feita com o pacote xaringan.
+Apresentação feita com o pacote xaringan.
